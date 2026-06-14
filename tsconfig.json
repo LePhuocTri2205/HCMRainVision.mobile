@@ -14,6 +14,8 @@
   ],
   "extends": "expo/tsconfig.base",
   "include": [
+    "**/*.js",
+    "**/*.jsx",
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",

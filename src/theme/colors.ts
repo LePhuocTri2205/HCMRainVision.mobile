@@ -1,0 +1,61 @@
+// Legacy color system for main app.
+export const colors = {
+  primary: "#000000",
+  secondary: "#666666",
+  background: "#ffffff",
+  white: "#ffffff",
+  mapBackground: "#e8e8e8",
+  mapGrid: "#d0d0d0",
+  text: "#000000",
+  textSecondary: "#666666",
+  textMuted: "#999999",
+  gray: "#888888",
+  lightGray: "#f5f5f5",
+  success: "#22c55e",
+  warning: "#f59e0b",
+  error: "#ef4444",
+  info: "#3b82f6",
+  rainNone: "#e5e5e5",
+  rainLight: "#b0b0b0",
+  rainMedium: "#707070",
+  rainHeavy: "#303030",
+  badgeHeavy: "#000000",
+  badgeMedium: "#666666",
+  badgeLight: "#999999",
+  badgeNoRain: "#cccccc",
+  badgeHigh: "#ef4444",
+  badgeInfo: "#3b82f6",
+  black: "#000000",
+  border: "#e0e0e0",
+  borderDark: "#000000",
+  cardBg: "#ffffff",
+  overlay: "rgba(0, 0, 0, 0.5)",
+  online: "#22c55e",
+  offline: "#ef4444",
+  routeStart: "#22c55e",
+  routeEnd: "#ef4444",
+  routeLine: "#000000",
+  transparent: "transparent",
+};
+
+const tintColorLight = "#0a7ea4";
+const tintColorDark = "#ffffff";
+
+export const Colors = {
+  light: {
+    text: "#11181c",
+    background: "#ffffff",
+    tint: tintColorLight,
+    icon: "#687076",
+    tabIconDefault: "#687076",
+    tabIconSelected: tintColorLight,
+  },
+  dark: {
+    text: "#ecedee",
+    background: "#151718",
+    tint: tintColorDark,
+    icon: "#9ba1a6",
+    tabIconDefault: "#9ba1a6",
+    tabIconSelected: tintColorDark,
+  },
+};
